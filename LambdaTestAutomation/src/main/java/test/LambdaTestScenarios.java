@@ -20,7 +20,7 @@ public class LambdaTestScenarios {
 		remoteDriver.driver.get("https://www.lambdatest.com/");
 		WebDriverWait wait = new WebDriverWait(remoteDriver.driver, Duration.ofSeconds(30));
 		// Wait until all the elements are present in the DOM
-		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*")));
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.tagName("html")));
 		// Find the element to be scrolled into view
 		WebElement element1 = remoteDriver.driver.findElement(By.xpath("//img[@alt='LambdaTest Integration with Asana']"));
 		// Scroll the element into view
@@ -49,11 +49,10 @@ public class LambdaTestScenarios {
 		//scroll to the page where the WebElement(Codeless Automation) is present.
 		// Find the element to be scrolled into view
 		WebElement element3 = remoteDriver.driver.findElement(By.xpath("//a[text()='Integrate Katalon Studio with LambdaTest']"));
-		WebElement element4 = remoteDriver.driver.findElement(By.xpath("//a[text()='Integrate Testing Whiz with LambdaTest']"));
 		// Scroll the element into view
 		((JavascriptExecutor) remoteDriver.driver).executeScript("arguments[0].scrollIntoView(true);", element3);
 		//click link to Learn More 
-		element4.click();
+		remoteDriver.driver.findElement(By.xpath("//a[text()='Integrate Testing Whiz with LambdaTest']")).click();
 		//getTitle
 		String getTitle = remoteDriver.driver.getTitle();
 		String expectedTitle = "Running Automation Tests Using TestingWhiz LambdaTest | LambdaTest";
@@ -67,8 +66,7 @@ public class LambdaTestScenarios {
 		//navigate to URL
 		remoteDriver.driver.navigate().to("https://www.lambdatest.com/blog");
 		//Click on the ‘Community’ link and 
-		WebElement communityLink = remoteDriver.driver.findElement(By.linkText("Community"));
-		communityLink.click();
+		remoteDriver.driver.findElement(By.linkText("Community")).click();
 		//verify whether the URL is https://community.lambdatest.com/.
 		expectedUrl = "https://community.lambdatest.com/";
 		actualUrl = remoteDriver.driver.getCurrentUrl();
@@ -84,7 +82,7 @@ public class LambdaTestScenarios {
 		remoteDriver.driver.get("https://www.lambdatest.com/");
 		WebDriverWait wait = new WebDriverWait(remoteDriver.driver, Duration.ofSeconds(30));
 		// Wait until all the elements are present in the DOM
-		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//*")));
+		wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.tagName("html")));
 		// Find the element to be scrolled into view
 		WebElement element1 = remoteDriver.driver.findElement(By.xpath("//img[@alt='LambdaTest Integration with Asana']"));
 		// Scroll the element into view
@@ -113,11 +111,10 @@ public class LambdaTestScenarios {
 		//scroll to the page where the WebElement(Codeless Automation) is present.
 		// Find the element to be scrolled into view
 		WebElement element3 = remoteDriver.driver.findElement(By.xpath("//a[text()='Integrate Katalon Studio with LambdaTest']"));
-		WebElement element4 = remoteDriver.driver.findElement(By.xpath("//a[text()='Integrate Testing Whiz with LambdaTest']"));
 		// Scroll the element into view
 		((JavascriptExecutor) remoteDriver.driver).executeScript("arguments[0].scrollIntoView(true);", element3);
-		//click link to Learn More 
-		element4.click();
+		//click link to Learn More
+		remoteDriver.driver.findElement(By.xpath("//a[text()='Integrate Testing Whiz with LambdaTest']")).click();
 		//getTitle
 		String getTitle = remoteDriver.driver.getTitle();
 		String expectedTitle = "Running Automation Tests Using TestingWhiz LambdaTest | LambdaTest";
@@ -131,8 +128,7 @@ public class LambdaTestScenarios {
 		//navigate to URL
 		remoteDriver.driver.navigate().to("https://www.lambdatest.com/blog");
 		//Click on the ‘Community’ link and 
-		WebElement communityLink = remoteDriver.driver.findElement(By.linkText("Community"));
-		communityLink.click();
+		remoteDriver.driver.findElement(By.linkText("Community")).click();
 		//verify whether the URL is https://community.lambdatest.com/.
 		expectedUrl = "https://community.lambdatest.com/";
 		actualUrl = remoteDriver.driver.getCurrentUrl();

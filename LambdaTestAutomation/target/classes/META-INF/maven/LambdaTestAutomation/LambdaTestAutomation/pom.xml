@@ -15,10 +15,5 @@
             <version>7.6.1</version>
             <scope>main</scope>
         </dependency>	
-        <dependency>
-		    <groupId>io.github.bonigarcia</groupId>
-		    <artifactId>webdrivermanager</artifactId>
-		    <version>5.3.1</version>
-		</dependency>
 	</dependencies>
 </project>

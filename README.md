@@ -2,6 +2,7 @@
 Selenium Advanced Certification
 
 Step 1: Open Gitpod workspace
+
 Step2 : In the terminal run command - mvn clean install
 
 <a href="https://gitpod.io/#https://github.com/GuruprasadKini/LamdaTestSampleJava.git">

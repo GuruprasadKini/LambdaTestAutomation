@@ -1,7 +1,7 @@
 # LambdaTestAutomation
 Selenium Advanced Certification
 
-Step 1: Open Gitpod workspace
+Step 1: Open code workspace
 
 Step2 : In the terminal run command - mvn clean install
 

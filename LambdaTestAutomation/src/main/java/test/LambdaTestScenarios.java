@@ -65,7 +65,7 @@ public class LambdaTestScenarios {
 		System.out.println("Number of windows: " + allWindows.size());
 		//navigate to URL
 		remoteDriver.driver.navigate().to("https://www.lambdatest.com/blog");
-		//Click on the ‘Community’ link and 
+		//Click on the ‘Community’ link 
 		remoteDriver.driver.findElement(By.linkText("Community")).click();
 		//verify whether the URL is https://community.lambdatest.com/.
 		expectedUrl = "https://community.lambdatest.com/";

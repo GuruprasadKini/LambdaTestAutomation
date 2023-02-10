@@ -13,16 +13,4 @@
       </class> <!-- test.LambdaTest -->
     </classes>
   </test> <!-- TestScenario1(failed) -->
-  <test thread-count="5" parallel="methods" name="TestScenario2(failed)">
-    <parameter name="browser" value="Microsoft Edge"/>
-    <parameter name="browserVersion" value="87.0"/>
-    <parameter name="platform" value="macOS Sierra"/>
-    <classes>
-      <class name="test.LambdaTest">
-        <methods>
-          <include name="runTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- test.LambdaTest -->
-    </classes>
-  </test> <!-- TestScenario2(failed) -->
 </suite> <!-- Failed suite [Suite] -->

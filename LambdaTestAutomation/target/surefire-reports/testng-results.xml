@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-10T10:59:22 UTC" name="suiteTest" finished-at="2023-02-10T10:59:56 UTC" duration-ms="34288">
+    <groups>
+    </groups>
+    <test started-at="2023-02-10T10:59:22 UTC" name="TestScenario1" finished-at="2023-02-10T10:59:50 UTC" duration-ms="28609">
+      <class name="test.LambdaTest">
+        <test-method signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LambdaTest@9d5509a]" started-at="2023-02-10T10:59:22 UTC" name="runTest" finished-at="2023-02-10T10:59:50 UTC" duration-ms="28573" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[win10]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[86.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+      </class> <!-- test.LambdaTest -->
+    </test> <!-- TestScenario1 -->
+    <test started-at="2023-02-10T10:59:22 UTC" name="TestScenario2" finished-at="2023-02-10T10:59:56 UTC" duration-ms="34288">
+      <class name="test.LambdaTest">
+        <test-method signature="runTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.LambdaTest@279fedbd]" started-at="2023-02-10T10:59:22 UTC" name="runTest" finished-at="2023-02-10T10:59:56 UTC" duration-ms="34254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[macOS Sierra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Microsoft Edge]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[87.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTest -->
+      </class> <!-- test.LambdaTest -->
+    </test> <!-- TestScenario2 -->
+  </suite> <!-- suiteTest -->
+</testng-results>
